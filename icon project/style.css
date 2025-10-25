@@ -1,0 +1,157 @@
+body{
+	font-family: "Georgia", serif;
+	background-color: #fff8e7;
+	color: #222;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+	overflow-x: hidden;
+}
+
+.container{
+	max-width: 850px;
+	margin: 40px auto;
+	padding: 25px;
+	background-color: #fff8dc;
+	box-shadow: 0 40px 12px rgba(0,0,0,0.01);
+	border-radius: 12px;
+}
+
+.headline{
+	font-family: "courier new", Courier, monospace;
+	color: #000
+	font-size: 2.2em;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.subhead{
+	font-family: "Georgia", serif;
+	color: #333;
+	font-size: 1.1rem;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-image{
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+	display: block;
+	margin: 0 auto 20px auto;
+	border-radius: 8px;
+}
+.photo-credit{
+	font-size: 0.85rem;
+	color: #6e6e6e;
+	text-align: center;
+	margin-top: 4px;
+	font-style: italic;
+}
+
+.byline{
+	text-align: center;
+	font-style: italic;
+	color: #555;
+	margin-bottom: 30px;
+}
+
+article{
+	display:block;
+	width: 100%;
+}
+
+article p{
+	font-size: 1rem;
+	color: #000;
+	margin-bottom: 25px;
+	padding: 0 15px;
+	word-wrap: break-word;
+	line-height: 1.6;
+}
+
+article p + p{
+	margin-top: 10px;
+}
+
+.icon-section{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-bottom: 40px;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.icon{
+	width: 110px;
+	height:auto;
+	flex-shrink: 0;
+	margin-bottom: 10px;
+}
+.icon-text{
+	flex: 1;
+	max-width: 700px;
+}
+
+.icon-section p{
+	margin-bottom: 15px;
+	line-height: 1.6;
+}
+
+.ending{
+	font-weight: normal;
+	color: #333;
+	border-left: none;
+	margin-top: 25px;
+}
+
+a{
+	color: #0099cc;
+	text-decoration: none;
+	font-weight: 500;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.headline{
+		font-size: 1.7rem;
+		line-height: 1.3;
+		margin-bottom: 8px;
+}
+
+.subhead{
+	font-size: 1rem;
+	line-height: 1.4;
+	padding: 0 10px;
+}
+.icon-section{
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.icon{
+	width: 90px;
+	height: 90px;
+	margin-bottom: 10px;
+}
+.icon-text{
+	max-width: 100%;
+}
+
+article p{
+	padding: 0 10px;
+	text-align: left;
+	}
+}
